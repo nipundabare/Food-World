@@ -1,8 +1,3 @@
-<%-- 
-    Document   : login_foreign
-    Created on : 01-Jun-2019, 19:00:50
-    Author     : F.R.I.D.A.Y
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

@@ -1,8 +1,4 @@
-<%-- 
-    Document   : index
-    Created on : 01-Jun-2019, 19:00:19
-    Author     : F.R.I.D.A.Y
---%>
+
 <%@page import="java.sql.Blob"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="controller.DB"%>
