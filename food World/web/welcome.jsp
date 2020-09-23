@@ -1,8 +1,4 @@
-<%-- 
-    Document   : welcome
-    Created on : Apr 25, 2020, 3:22:42 PM
-    Author     : Randika
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

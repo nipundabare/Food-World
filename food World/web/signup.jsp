@@ -1,8 +1,4 @@
-<%-- 
-    Document   : signup
-    Created on : 01-Jun-2019, 19:02:16
-    Author     : F.R.I.D.A.Y
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html> 
