@@ -1,0 +1,232 @@
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("BG2.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-imagedel {
+    /* The image used */
+    background-image: url("BGdel.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .list-group {
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  .list-group-item2 {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color:transparent;
+    border: 1px solid #ddd;
+  }
+  .list-group-item2:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  .list-group-item2:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  .list-group-item2 > .badge {
+    float: right;
+  }
+  .list-group-item2 > .badge + .badge {
+    margin-right: 5px;
+  }
+  a.list-group-item2 {
+    color: rgb(255, 255, 255);
+  }
+  a.list-group-item2 .list-group-item2-heading {
+    color: #333;
+  }
+  a.list-group-item2:hover,
+  a.list-group-item2:focus {
+    color: #555;
+    text-decoration: none;
+    background-color: #f5f5f5;
+  }
+  .list-group-item2.disabled,
+  .list-group-item2.disabled:hover,
+  .list-group-item2.disabled:focus {
+    color: #777;
+    background-color: #eee;
+  }
+  .list-group-item2.disabled .list-group-item2-heading,
+  .list-group-item2.disabled:hover .list-group-item2-heading,
+  .list-group-item2.disabled:focus .list-group-item2-heading {
+    color: inherit;
+  }
+  .list-group-item2.disabled .list-group-item2-text,
+  .list-group-item2.disabled:hover .list-group-item2-text,
+  .list-group-item2.disabled:focus .list-group-item2-text {
+    color: #777;
+  }
+  .list-group-item2.active,
+  .list-group-item2.active:hover,
+  .list-group-item2.active:focus {
+    z-index: 2;
+    color: #fff;
+    background-color: #428bca;
+    border-color: #428bca;
+  }
+  .list-group-item2.active .list-group-item2-heading,
+  .list-group-item2.active:hover .list-group-item2-heading,
+  .list-group-item2.active:focus .list-group-item2-heading,
+  .list-group-item2.active .list-group-item2-heading > small,
+  .list-group-item2.active:hover .list-group-item2-heading > small,
+  .list-group-item2.active:focus .list-group-item2-heading > small,
+  .list-group-item2.active .list-group-item2-heading > .small,
+  .list-group-item2.active:hover .list-group-item2-heading > .small,
+  .list-group-item2.active:focus .list-group-item2-heading > .small {
+    color: inherit;
+  }
+  .list-group-item2.active .list-group-item2-text,
+  .list-group-item2.active:hover .list-group-item2-text,
+  .list-group-item2.active:focus .list-group-item2-text {
+    color: #e1edf7;
+  }
+  .list-group-item2-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+  }
+  a.list-group-item2-success {
+    color: #3c763d;
+  }
+  a.list-group-item2-success .list-group-item2-heading {
+    color: inherit;
+  }
+  a.list-group-item2-success:hover,
+  a.list-group-item2-success:focus {
+    color: #3c763d;
+    background-color: #d0e9c6;
+  }
+  a.list-group-item2-success.active,
+  a.list-group-item2-success.active:hover,
+  a.list-group-item2-success.active:focus {
+    color: #fff;
+    background-color: #3c763d;
+    border-color: #3c763d;
+  }
+  .list-group-item2-info {
+    color: #31708f;
+    background-color: #d9edf7;
+  }
+  a.list-group-item2-info {
+    color: #31708f;
+  }
+  a.list-group-item2-info .list-group-item2-heading {
+    color: inherit;
+  }
+  a.list-group-item2-info:hover,
+  a.list-group-item2-info:focus {
+    color: #31708f;
+    background-color: #c4e3f3;
+  }
+  a.list-group-item2-info.active,
+  a.list-group-item2-info.active:hover,
+  a.list-group-item2-info.active:focus {
+    color: #fff;
+    background-color: #31708f;
+    border-color: #31708f;
+  }
+  .list-group-item2-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+  }
+  a.list-group-item2-warning {
+    color: #8a6d3b;
+  }
+  a.list-group-item2-warning .list-group-item2-heading {
+    color: inherit;
+  }
+  a.list-group-item2-warning:hover,
+  a.list-group-item2-warning:focus {
+    color: #8a6d3b;
+    background-color: #faf2cc;
+  }
+  a.list-group-item2-warning.active,
+  a.list-group-item2-warning.active:hover,
+  a.list-group-item2-warning.active:focus {
+    color: #fff;
+    background-color: #8a6d3b;
+    border-color: #8a6d3b;
+  }
+  .list-group-item2-danger {
+    color: #a94442;
+    background-color: #f2dede;
+  }
+  a.list-group-item2-danger {
+    color: #a94442;
+  }
+  a.list-group-item2-danger .list-group-item2-heading {
+    color: inherit;
+  }
+  a.list-group-item2-danger:hover,
+  a.list-group-item2-danger:focus {
+    color: #a94442;
+    background-color: #ebcccc;
+  }
+  a.list-group-item2-danger.active,
+  a.list-group-item2-danger.active:hover,
+  a.list-group-item2-danger.active:focus {
+    color: #fff;
+    background-color: #a94442;
+    border-color: #a94442;
+  }
+  .list-group-item2-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .list-group-item2-text {
+    margin-bottom: 0;
+    line-height: 1.3;
+  }
