@@ -1,8 +1,4 @@
-<%-- 
-    Document   : contact
-    Created on : 01-Jun-2019, 18:58:26
-    Author     : F.R.I.D.A.Y
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!doctype html>

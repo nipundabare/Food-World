@@ -1,8 +1,5 @@
-<%-- 
-    Document   : admin_login
-    Created on : 02-Jun-2019, 20:17:20
-    Author     : F.R.I.D.A.Y
---%>
+
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
